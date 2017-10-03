@@ -1,10 +1,14 @@
 import React from 'react';
 import {Form} from './Form';
+import {Map} from './Map';
 
 export class App extends React.Component {
   render() {
     return (
-      <Form />
+      <div>
+        <Form />
+        <Map />
+      </div>
     );
   }
 }
