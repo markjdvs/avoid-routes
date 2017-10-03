@@ -4,13 +4,19 @@ export class Form extends React.Component {
   render() {
     return (
       <form>
-        <label>Where from?
-          <input></input>
-        </label>
-        <label>Where to?
-          <input></input>
-        </label>
-        <button>Search</button>
+        <div>
+          <label>Where from?
+            <input></input>
+          </label>
+        </div>
+        <div>
+          <label>Where to?
+            <input></input>
+          </label>
+        </div>
+        <div>
+          <button>Search</button>
+        </div>
       </form>
     );
   }
